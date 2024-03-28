@@ -1,0 +1,12 @@
+.h-wrapper {
+  @apply text-white py-8;
+  background-color: rgb(98, 60, 127);
+}
+
+.h-container {
+  @apply flex justify-between mx-9; 
+}
+
+.title {
+  @apply font-semibold text-3xl;
+}
