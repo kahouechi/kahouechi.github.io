@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kahouechi.github.io/"
+  "homepage": "https://kahouechi.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
