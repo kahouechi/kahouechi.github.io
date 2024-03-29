@@ -15,6 +15,7 @@ const Header = () => {
         <div className='h-menu'>
           <Link to="/projects">PROJECTS</Link>
           <Link to="/resume">RESUME</Link>
+          <Link to="/contact">CONTACT</Link>
         </div>
       </div>
     </section>

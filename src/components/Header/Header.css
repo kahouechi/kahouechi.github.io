@@ -1,12 +1,16 @@
 .h-wrapper {
-  @apply text-white py-8;
-  background-color: rgb(98, 60, 127);
+  @apply text-white py-8 shadow-lg;
+  background: linear-gradient(240deg, rgb(152, 124, 178), rgb(61, 34, 87));
 }
 
 .h-container {
-  @apply flex justify-between mx-9; 
+  @apply flex justify-between mx-9 items-center; 
 }
 
 .title {
   @apply font-semibold text-3xl;
+}
+
+.h-menu>* {
+  @apply font-semibold text-lg mx-5;
 }
