@@ -20,7 +20,7 @@ const Header = () => {
       <div className='h-container'>
         <Link to="/">
           <div className='title'>
-            <h1>Kaho's Portfolio</h1>
+            <h1>Kaho</h1>
           </div>
         </Link>
 

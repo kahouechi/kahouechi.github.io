@@ -1,5 +1,5 @@
 .hero-wrapper {
-  @apply bg-purple-950 h-96;
+  @apply flex justify-center items-center bg-gradient-to-tr from-violet-900 via-slate-900 to-indigo-950 top-0;
 }
 
 .hero-wrapper> *{
@@ -7,5 +7,13 @@
 }
 
 .hero-container {
-  @apply flex p-10 justify-center items-center;
+  @apply p-60 text-center;
+}
+
+.hero-title> h2{
+  @apply text-2xl;
+}
+
+.hero-title> h1{
+  @apply text-9xl font-semibold;
 }

@@ -5,23 +5,10 @@ const Hero = () => {
   return (
     <section className="hero-wrapper">
       <div className="hero-container">
-        {/* left side */}
         <div className="hero-left">
           <div className="hero-title">
-            <h2>Hello, my name is</h2>
-            <h1>KAHO</h1>
-          </div>
-
-          <div className="hero-des">
-            <span className='secondaryText'>fjadknalkdnvandfvadf</span>
-            <span className='secondaryText'>jdfnakjnvkjandfva</span> <br />
-          </div>
-        </div>
-
-        {/* right side */}
-        <div className="hero-right">
-          <div className='image-container'>
-            <img src="./images/hero-image.png" alt="" />
+            <h2>Hello! I'm</h2>
+            <h1>KAHO UECHI</h1>
           </div>
         </div>
       </div>
