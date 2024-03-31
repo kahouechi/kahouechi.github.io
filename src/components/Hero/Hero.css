@@ -1,0 +1,7 @@
+.hero-wrapper {
+  @apply m-9 bg-purple-200;
+}
+
+.hero-container {
+  @apply flex p-3;
+}

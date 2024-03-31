@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from '../../components/Hero/Hero.jsx';
 
-const home = () => {
+const Home = () => {
   return (
-    <div>home</div>
+    <section className="home">
+      <Hero />
+    </section>
   )
 }
 
-export default home
+export default Home
