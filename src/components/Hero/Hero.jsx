@@ -8,15 +8,13 @@ const Hero = () => {
         {/* left side */}
         <div className="hero-left">
           <div className="hero-title">
-            <h2>Hello!! My name is</h2>
+            <h2>Hello, my name is</h2>
             <h1>KAHO</h1>
           </div>
 
           <div className="hero-des">
             <span className='secondaryText'>fjadknalkdnvandfvadf</span>
             <span className='secondaryText'>jdfnakjnvkjandfva</span> <br />
-            <button className='log-in-button'>Log In</button>
-            <button className='create-accnt-button'>Create an Account</button>
           </div>
         </div>
 

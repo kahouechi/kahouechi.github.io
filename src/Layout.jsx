@@ -1,8 +1,8 @@
-import Header from './components/Header/Header.jsx'
-import { Outlet } from 'react-router-dom'
-import Footer from './components/Footer/Footer.jsx'
+import Header from './components/Header/Header.jsx';
+import { Outlet } from 'react-router-dom';
+import Footer from './components/Footer/Footer.jsx';
 
-const Layout = () => {
+function Layout() {
   return (
     <div>
       <Header />
@@ -11,7 +11,7 @@ const Layout = () => {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
 export default Layout

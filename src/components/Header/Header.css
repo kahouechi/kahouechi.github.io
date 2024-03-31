@@ -1,5 +1,8 @@
 .h-wrapper {
-  @apply text-white py-8 shadow-lg;
+  @apply text-white py-8 shadow-2xl bg-purple-950;
+}
+
+.h-bg {
   background: linear-gradient(240deg, rgb(152, 124, 178), rgb(61, 34, 87));
 }
 

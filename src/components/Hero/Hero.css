@@ -1,7 +1,11 @@
 .hero-wrapper {
-  @apply m-9 bg-purple-200;
+  @apply bg-purple-950 h-96;
+}
+
+.hero-wrapper> *{
+  @apply text-white;
 }
 
 .hero-container {
-  @apply flex p-3;
+  @apply flex p-10 justify-center items-center;
 }
