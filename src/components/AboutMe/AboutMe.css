@@ -1,0 +1,19 @@
+.am-wrapper{
+  @apply m-10;
+}
+
+.am-container {
+  @apply shadow-lg p-10 rounded-2xl;
+}
+
+.am-text {
+  @apply mx-10;
+}
+
+.am-text> h1 {
+  @apply text-4xl font-bold mb-8;
+}
+
+.am-text> p {
+  @apply text-lg;
+}
