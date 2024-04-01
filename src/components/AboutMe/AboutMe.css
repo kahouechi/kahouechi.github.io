@@ -1,9 +1,5 @@
-.am-wrapper{
-  @apply m-10;
-}
-
-.am-container {
-  @apply shadow-lg p-10 rounded-2xl;
+.am-wrapper> *{
+  @apply m-12;
 }
 
 .am-text {

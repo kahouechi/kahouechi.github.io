@@ -1,13 +1,13 @@
 .hero-wrapper {
-  @apply flex justify-center items-center bg-gradient-to-tr from-violet-900 via-slate-900 to-indigo-950 top-0;
+  @apply flex justify-center items-center bg-gradient-to-tr from-violet-950 via-slate-900 to-indigo-950 top-0 mb-40 shadow-2xl;
 }
 
 .hero-wrapper> *{
-  @apply text-white;
+  @apply text-white my-20;
 }
 
 .hero-container {
-  @apply p-48 text-center;
+  @apply p-40 text-center;
 }
 
 .hero-title> h2{

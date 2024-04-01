@@ -7,7 +7,7 @@ const Header = () => {
   //change header background when scroll
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 90)
+    if (window.scrollY >= 80)
       setColor(true);
     else
       setColor(false);
@@ -16,7 +16,7 @@ const Header = () => {
   window.addEventListener('scroll', changeColor);
 
   return (
-    <section className={color ? 'h-wrapper h-bg' : 'h-wrapper'}>
+    <section className={color ? 'h-wrapper h-scroll' : 'h-wrapper'}>
       <div className='h-container'>
         <Link to="/">
           <div className='title'>

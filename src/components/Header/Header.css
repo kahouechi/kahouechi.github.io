@@ -1,9 +1,9 @@
 .h-wrapper {
-  @apply text-white py-8 shadow-2xl bg-black bg-slate-900;
+  @apply text-white py-8 shadow-2xl bg-black bg-slate-900 transition-all ease-in;
 }
 
-.h-bg {
-  background: linear-gradient(240deg, rgb(152, 124, 178), rgb(61, 34, 87));
+.h-scroll {
+  @apply transition-all ease-in duration-150 fixed top-0 left-0 right-0 bg-gradient-to-tr from-indigo-950 via-slate-900 to-violet-900;
 }
 
 .h-container {
