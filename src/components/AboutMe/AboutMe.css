@@ -11,5 +11,5 @@
 }
 
 .fun-fact{
-  @apply flex flex-col justify-start bg-white p-9 shadow-lg rounded-2xl;
+  @apply flex flex-col justify-start bg-white p-9 shadow-lg rounded-xl;
 }
