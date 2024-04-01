@@ -3,7 +3,7 @@
 }
 
 .am-container div {
-  @apply mb-12;
+  @apply mb-20;
 }
 
 .fun-facts {
@@ -11,5 +11,9 @@
 }
 
 .fun-fact{
-  @apply bg-slate-100 px-10 py-5 shadow-lg rounded-2xl;
+  @apply bg-white px-10 py-5 shadow-lg rounded-2xl;
+}
+
+.projects-container {
+  @apply grid grid-cols-2 gap-20;
 }

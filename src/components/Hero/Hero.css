@@ -1,5 +1,5 @@
 .hero-wrapper {
-  @apply flex justify-center items-center bg-gradient-to-tr from-violet-950 via-slate-900 to-indigo-950 top-0 mb-40 shadow-2xl;
+  @apply flex justify-center items-center bg-gradient-to-tr from-violet-950 via-slate-900 to-indigo-950 top-0 mb-28 shadow-2xl;
 }
 
 .hero-wrapper> *{
