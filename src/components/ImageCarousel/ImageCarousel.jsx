@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './ImageCarousel.css'
 
 const Carousel = ({ images }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -13,9 +14,10 @@ const Carousel = ({ images }) => {
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
-  
+
   return (
-    <div className="carousel">
+    <div className="carousel-wrapper">
+      <div className="carousel">
       <button onClick={prevSlide} className="carousel__btn carousel__btn--prev">
         &lt;
       </button>
@@ -27,6 +29,7 @@ const Carousel = ({ images }) => {
       <button onClick={nextSlide} className="carousel__btn carousel__btn--next">
         &gt;
       </button>
+    </div>
     </div>
   );
 };

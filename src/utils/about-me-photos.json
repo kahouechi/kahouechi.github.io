@@ -1,0 +1,35 @@
+{
+  "Japan": [
+    "./Japan/GlasswareShop.jpg",
+    "./Japan/NightWalk.jpg",
+    "./Japan/OkinawaBeach.jpg",
+    "./Japan/OkinawaSoba.jpg"
+  ],
+  
+  "FashionAndMusic" : [
+    "./FashionAndMusic/BedsideTable.jpg",
+    "./FashionAndMusic/BirthdayOutfit.jpg",
+    "./FashionAndMusic/ClairoConcert.jpg",
+    "./FashionAndMusic/FitCheck.jpg",
+    "./FashionAndMusic/MeAtMitskiConcert.jpg",
+    "./FashionAndMusic/MitskiConcert.jpg",
+    "./FashionAndMusic/PurpleFit.jpg"
+  ],
+
+  "Food": [
+    "./Food/KoreanBBQ.jpeg",
+    "./Food/RollCake.jpg",
+    "./Food/ShavedIce.jpg",
+    "./Food/Smores.jpg",
+    "./Food/SoonTofu.jpg",
+    "./Food/Udon.jpg"
+  ],
+
+  "Nature": [
+    "./Nature/CottageTrip.jpg",
+    "./Nature/Hike.jpg",
+    "./Nature/OkinawaSunset.jpg",
+    "./Nature/QuebecHike.jpg",
+    "./Nature/QuebecSunset.jpg"
+  ]
+}

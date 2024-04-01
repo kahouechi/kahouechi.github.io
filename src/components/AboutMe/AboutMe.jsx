@@ -1,5 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
+import ImageCarousel from '../ImageCarousel/ImageCarousel.jsx'
+import data from '../../utils/about-me-photos.json';
 
 const AboutMe = () => {
   return (
@@ -15,6 +17,7 @@ const AboutMe = () => {
         <div className='fun-facts'>
           <div className='fun-fact'>
             <h1>I was born in Japan!</h1>
+            <ImageCarousel images={data["Japan"]}/>
             <p>
               &#9733;	I was born in Okinawa, Japan, but I moved to Toronto, Canada when I was four years old
             </p>
@@ -22,6 +25,7 @@ const AboutMe = () => {
 
           <div className='fun-fact'>
             <h1>I like to dabble in fashion and music...</h1>
+            <ImageCarousel images={data["FashionAndMusic"]}/>
             <p>
               &#9733;	I like exploring different clothing pieces and ways to style them
               <br/>
@@ -32,6 +36,7 @@ const AboutMe = () => {
 
           <div className='fun-fact'>
             <h1>I loovveee food...</h1>
+            <ImageCarousel images={data["Food"]}/>
             <p>
               &#9733;	There's nothing better than a good meal or sweet treat :P
             </p>
@@ -39,8 +44,9 @@ const AboutMe = () => {
           
           <div className='fun-fact'>
             <h1>I like nature!</h1>
+            <ImageCarousel images={data["Nature"]}/>
             <p>
-              &#9733; I love being in nature, especially sunsets!! So beautiful &#x266C;
+              &#9733; I love being in nature, especially sunsets! So beautiful &#x266C;
               <br/>
               <br/>
               &#9733;	Other than my interest for coding, I like to learn about sustainability. I am currently working on creating a new Youth Climate Action Engagement Strategy as part of the Toronto Schools Youth Climate Leadership Group!
