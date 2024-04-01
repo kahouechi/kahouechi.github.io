@@ -7,6 +7,16 @@
   margin: 0;
 }
 
+h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+p {
+  @apply text-base;
+}
+
 body {
   background-color: rgb(226, 223, 237);
 }

@@ -7,7 +7,7 @@
 }
 
 .hero-container {
-  @apply p-40 text-center;
+  @apply p-32 text-center;
 }
 
 .hero-title> h2{
@@ -15,5 +15,9 @@
 }
 
 .hero-title> h1{
-  @apply text-8xl font-semibold;
+  @apply text-8xl;
+}
+
+.hero-title> p {
+  @apply text-indigo-300;
 }

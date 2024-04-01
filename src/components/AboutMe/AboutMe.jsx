@@ -17,9 +17,22 @@ const AboutMe = () => {
 
         <div className='fun-facts'>
           <div className='fun-fact'>
-            <h1>I like fashion!</h1>
+            <h1>I like to dabble in fashion and music...</h1>
             <p>ksdnfnfkandfn</p>
           </div>
+          <div className='fun-fact'>
+            <h1>fact</h1>
+            <p>des</p>
+          </div>
+          <div className='fun-fact'>
+            <h1>fact</h1>
+            <p>des</p>
+          </div>
+        </div>
+
+        <div className="projects-container">
+          <h1>CHECK OUT MY PROJECTS!</h1>
+          
         </div>
       </div>
     </section>

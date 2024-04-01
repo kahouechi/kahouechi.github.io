@@ -1,27 +1,15 @@
-.am-wrapper> *{
-  @apply m-12;
-}
-
 .am-container {
   @apply mx-28;
 }
 
-.am-text{
-  @apply mb-10;
-}
-
-.am-text> h1 {
-  @apply text-4xl font-bold mb-8;
-}
-
-.am-text> p {
-  @apply text-lg;
+.am-container div {
+  @apply mb-12;
 }
 
 .fun-facts {
-  @apply grid grid-cols-3;
+  @apply grid grid-cols-3 gap-10;
 }
 
 .fun-fact{
-  @apply p-10 shadow-lg rounded-2xl;
+  @apply bg-slate-100 px-10 py-5 shadow-lg rounded-2xl;
 }

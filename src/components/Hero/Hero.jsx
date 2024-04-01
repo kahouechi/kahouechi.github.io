@@ -9,6 +9,7 @@ const Hero = () => {
           <div className="hero-title">
             <h2>Hello! I'm</h2>
             <h1>KAHO UECHI</h1>
+            <p>she/her</p>
           </div>
         </div>
       </div>
