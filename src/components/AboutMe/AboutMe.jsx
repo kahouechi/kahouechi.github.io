@@ -9,8 +9,6 @@ const AboutMe = () => {
           <h1>GET TO KNOW ME :&#41;</h1>
           <p>
             Hi! My name is Kaho &#40;pronounced kah-ho&#41; and I am a 16 year old high school student.
-          </p>
-          <p>
             I like working on coding projects and building on my knowledge of web development and competitve programming!
           </p>
         </div>
@@ -32,7 +30,7 @@ const AboutMe = () => {
 
         <div className="projects-container">
           <h1>CHECK OUT MY PROJECTS!</h1>
-          
+
         </div>
       </div>
     </section>
