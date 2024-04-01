@@ -1,5 +1,5 @@
 .h-wrapper {
-  @apply text-white shadow-2xl bg-black bg-slate-900 transition-all ease-in duration-150;
+  @apply text-white shadow-2xl bg-black bg-slate-900 transition-all ease-in duration-150 z-50;
 }
 
 .h-scroll {

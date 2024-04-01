@@ -1,5 +1,5 @@
 .carousel {
-  @apply relative max-w-full overflow-hidden mb-10 shadow-lg rounded-lg;
+  @apply relative max-w-full overflow-hidden mb-7 shadow-lg rounded-lg;
 }
 
 .carousel img {
