@@ -1,19 +1,15 @@
-.am-container {
-  @apply mx-28;
-}
-
-.am-container div {
-  @apply mb-20;
+.am-text {
+  @apply mb-10;
 }
 
 .fun-facts {
-  @apply grid grid-cols-3 gap-10;
+  @apply grid grid-cols-3 gap-7;
+}
+
+.fun-fact h1 {
+  @apply text-xl mt-0;
 }
 
 .fun-fact{
-  @apply bg-white px-10 py-5 shadow-lg rounded-2xl;
-}
-
-.projects-container {
-  @apply grid grid-cols-2 gap-20;
+  @apply flex flex-col justify-start bg-white p-9 shadow-lg rounded-2xl;
 }

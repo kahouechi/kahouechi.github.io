@@ -1,5 +1,5 @@
 .h-wrapper {
-  @apply px-8 text-white shadow-2xl bg-black bg-slate-900 transition-all ease-in duration-150;
+  @apply text-white shadow-2xl bg-black bg-slate-900 transition-all ease-in duration-150;
 }
 
 .h-scroll {
@@ -7,7 +7,7 @@
 }
 
 .h-container {
-  @apply flex justify-between mx-9 items-center; 
+  @apply flex justify-between mx-9 items-center;
 }
 
 .h-menu>* {

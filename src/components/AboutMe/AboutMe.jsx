@@ -14,39 +14,19 @@ const AboutMe = () => {
 
         <div className='fun-facts'>
           <div className='fun-fact'>
-            <h1>I like to dabble in fashion and music...</h1>
-            <p>ksdnfnfkandfn</p>
-          </div>
-          <div className='fun-fact'>
-            <h1>fact</h1>
-            <p>des</p>
-          </div>
-          <div className='fun-fact'>
-            <h1>fact</h1>
-            <p>des</p>
-          </div>
-        </div>
-
-        <div className="projects-wrapper">
-          <div className="projects-container">
-            <div className="projects-left">
-              image
-            </div>
-            <div className="projects-right">
-              <h1>CHECK OUT MY PROJECTS!!</h1>
-              <p>
-                I like working on coding projects and building on my knowledge of web development and competitve programming! <br /> -- Check out my work here
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="contact-wrapper">
-          <div className="contact-container">
-            <h1>CONTACT ME</h1>
-            <p>
-              I am always up to start a conversation! Feel free to contact me through any of my socials, and I will get back to you as soon as I can.
+            <h1>I like being creative!</h1>
+            <p>I like to dabble in fashion, music, and art... <br /> 
+            <br />
+            I love ALLLLLL genres of music, but my current favourite artists are Childish Gambino, MF DOOM, and Sade!!
             </p>
+          </div>
+          <div className='fun-fact'>
+            <h1>I was born in Japan!</h1>
+            <p>I was born in Okinawa, Japan, but I moved to Toronto, Canada when I was four years old!</p>
+          </div>
+          <div className='fun-fact'>
+            <h1>I'm interested in sustainability!</h1>
+            <p>des</p>
           </div>
         </div>
       </div>
