@@ -1,8 +1,15 @@
 import React from 'react'
+import './projects.css'
+import ProjectsHero from '../../components/Hero/ProjectsHero.jsx'
 
 const Projects = () => {
   return (
-    <div>projects</div>
+    <section className="projects">
+      <ProjectsHero />
+      <div className="page">
+        
+      </div>
+    </section>
   )
 }
 

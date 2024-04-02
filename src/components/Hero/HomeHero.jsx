@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <section className="hero-wrapper">
+    <section className="hero-wrapper bg-gradient-to-tr from-violet-950 via-slate-900 to-indigo-950">
       <div className="hero-container">
         <div className="hero-left">
           <div className="hero-title">
