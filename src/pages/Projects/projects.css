@@ -3,17 +3,30 @@
 }
 
 .project {
-  @apply bg-white p-7 shadow-lg transition-all ease-in-out duration-500 border-2 border-slate-500 rounded-md;
+  @apply bg-white py-5 px-7 shadow-lg transition-all ease-in-out duration-500 border-2 border-slate-400 rounded-md;
 }
 
 .project:hover {
-  @apply scale-110 transition-all ease-in-out duration-500;
+  @apply scale-110 transition-all ease-in-out duration-500 border-sky-800;
+
+  h1 {
+    @apply text-sky-800;
+  }
+
 }
 
 .project-top {
-  @apply border-b border-slate-500;
+  @apply border-b border-slate-400;
 }
 
 .project img {
-  @apply rounded-sm shadow-lg my-10;
+  @apply rounded-sm shadow-lg my-8;
+}
+
+.project h2 {
+  @apply font-semibold text-lg text-slate-600 ml-1;
+}
+
+.view-more-button {
+  @apply flex flex-row justify-center items-center gap-1 w-1/4 bg-sky-700 text-white p-1 rounded-md shadow-lg;
 }
