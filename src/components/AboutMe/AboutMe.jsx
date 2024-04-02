@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 import ImageCarousel from '../ImageCarousel/ImageCarousel.jsx'
-import data from '../../utils/about-me-photos.json';
+import data from '../../data/about-me-photos.json';
 
 const AboutMe = () => {
   return (

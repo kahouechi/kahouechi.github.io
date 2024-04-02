@@ -1,0 +1,23 @@
+[
+  {
+    "heading": "This Website!",
+    "sub-heading": "A Portfolio Website for Myself",
+    "image": "./Projects/MyWebsite.png",
+    "description": "I wanted to make my own personal website that showcased my coding projects, accomplishments, as well as me as a person!",
+    "technologies": [
+      "React.js",
+      "TailwindCSS"
+    ]
+  },
+
+  {
+    "heading": "BoomBox",
+    "sub-heading": "An App for Music Lovers",
+    "image": "./Projects/BoomBox.png",
+    "description": "BoomBox is an application that I came up with, where you can set up a profile and post reviews of albums, add albums to your favourites list, and add albums to a listen list. Ultimately, you can connect with others about shared love of music!",
+    "technologies": [
+      "React.js",
+      "TailwindCSS"
+    ]
+  }
+]
