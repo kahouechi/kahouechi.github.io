@@ -18,5 +18,5 @@ h1 {
 }
 
 p {
-  @apply text-base;
+  @apply text-base text-slate-600;
 }

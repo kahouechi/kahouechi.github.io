@@ -12,8 +12,10 @@ const Projects = () => {
           {
             data.map((project, i) => (
               <div className="project">
-                <h1>{project.heading}</h1>
-                <h2>{project.subheading}</h2>
+                <div className="project-top">
+                  <h1>{project.heading}</h1>
+                  <h2>{project.subheading}</h2>
+                </div>
                 <img src={project.image}/>
                 <p>{project.description}</p>
               </div>

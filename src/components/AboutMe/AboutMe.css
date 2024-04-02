@@ -11,10 +11,14 @@
 }
 
 .fun-fact:hover {
-  @apply scale-110 p-5 shadow-2xl transition-all ease-in-out duration-300 text-black border-2 border-purple-400;
+  @apply scale-110 p-5 shadow-2xl transition-all ease-in-out duration-300 border-2 border-purple-400;
   
   h1 {
     @apply text-purple-800;
+  }
+
+  p {
+    @apply text-black;
   }
 }
 
