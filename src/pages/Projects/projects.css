@@ -1,0 +1,15 @@
+.projects-container {
+  @apply grid grid-cols-2 gap-20;
+}
+
+.project {
+  @apply bg-white p-7 shadow-lg transition-all ease-in-out duration-500 border-2 border-black rounded-md;
+}
+
+.project:hover {
+  @apply scale-110 transition-all ease-in-out duration-500;
+}
+
+.project img {
+  @apply rounded-sm shadow-lg my-10;
+}

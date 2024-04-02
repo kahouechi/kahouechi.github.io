@@ -10,7 +10,7 @@
   @apply absolute top-1/2 -translate-y-2/4 bg-white text-purple-900 p-1 cursor-pointer z-10 transition-colors duration-300 rounded-sm;
 }
 .carousel__btn:hover {
-  @apply bg-slate-200;
+  @apply bg-slate-100 font-semibold text-purple-500;
 }
 .carousel__btn--prev {
   @apply left-0;
