@@ -18,18 +18,18 @@ const Carousel = ({ images }) => {
   return (
     <div className="carousel-wrapper">
       <div className="carousel">
-      <button onClick={prevSlide} className="carousel__btn carousel__btn--prev">
-        &lt;
-      </button>
-      <img
-        src={images[activeIndex]}
-        alt={`Slide ${activeIndex}`}
-        className="carousel__img"
-      />
-      <button onClick={nextSlide} className="carousel__btn carousel__btn--next">
-        &gt;
-      </button>
-    </div>
+        <button onClick={prevSlide} className="carousel__btn carousel__btn--prev">
+          &lt;
+        </button>
+        <img
+          src={images[activeIndex]}
+          alt={`Slide ${activeIndex}`}
+          className="carousel__img"
+        />
+        <button onClick={nextSlide} className="carousel__btn    carousel__btn--next">
+          &gt;
+        </button>
+      </div>
     </div>
   );
 };

@@ -2,13 +2,16 @@ import React from 'react'
 import './ProjectsHome.css'
 import { Link } from 'react-router-dom'
 import { FaArrowLeftLong } from "react-icons/fa6"
+import data from '../../data/projects.json'
+import ProjectCarousel from '../ProjectCarousel/ProjectCarousel.jsx'
+
 
 const ProjectsHome = () => {
   return (
     <div className="projects-wrapper">
       <div className="projects-container">
         <div className="projects-left">
-          image
+          <ProjectCarousel data={data}/>
         </div>
         <div className="projects-right">
           <h1 >CHECK OUT MY PROJECTS!!</h1>
