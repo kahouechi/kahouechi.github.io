@@ -3,15 +3,19 @@
 }
 
 .fun-facts {
-  @apply grid grid-cols-4 gap-4;
+  @apply grid grid-cols-4 gap-7;
 }
 
 .fun-fact{
-  @apply flex flex-col justify-start bg-white p-7 shadow-lg rounded-xl transition-all ease-in-out duration-500;
+  @apply flex flex-col justify-start bg-white text-slate-600 p-7 shadow-lg rounded-xl transition-all ease-in-out duration-500;
 }
 
 .fun-fact:hover {
-  @apply scale-110 p-5 shadow-2xl transition-all ease-in-out duration-300;
+  @apply scale-110 p-5 shadow-2xl transition-all ease-in-out duration-300 text-black;
+  
+  h1 {
+    @apply text-purple-800;
+  }
 }
 
 .fun-fact h1 {

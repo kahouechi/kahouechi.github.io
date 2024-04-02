@@ -52,7 +52,7 @@ const AboutMe = () => {
             <h1>I like nature :D</h1>
             <ImageCarousel images={data["Nature"]}/>
             <p>
-              &#9733; I love being in nature, especially sunsets! So beautiful &#x266C;
+              &#9733; I love being in nature, especially sunsets! It's so beautiful &#x266C;
               <br/>
               <br/>
               &#9733;	Other than my interest for coding, I like to learn about sustainability as well.
