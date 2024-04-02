@@ -7,18 +7,18 @@
   ],
   
   "FashionAndMusic" : [
-    "./FashionAndMusic/BedsideTable.jpg",
-    "./FashionAndMusic/BirthdayOutfit.jpg",
     "./FashionAndMusic/ClairoConcert.jpg",
+    "./FashionAndMusic/BirthdayOutfit.jpg",
     "./FashionAndMusic/FitCheck.jpg",
     "./FashionAndMusic/MeAtMitskiConcert.jpg",
     "./FashionAndMusic/MitskiConcert.jpg",
-    "./FashionAndMusic/PurpleFit.jpg"
+    "./FashionAndMusic/PurpleFit.jpg",
+    "./FashionAndMusic/BedsideTable.jpg"
   ],
 
   "Food": [
-    "./Food/KoreanBBQ.jpeg",
     "./Food/ShavedIce.jpg",
+    "./Food/KoreanBBQ.jpeg",
     "./Food/RollCake.jpg",
     "./Food/Smores.jpg",
     "./Food/SoonTofu.jpg",

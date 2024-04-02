@@ -1,3 +1,7 @@
 .projects-container {
-  @apply grid grid-cols-2 gap-20;
+  @apply flex flex-col justify-center items-center;
+}
+
+.see-more-link {
+  @apply flex items-center gap-1;
 }

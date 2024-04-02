@@ -1,9 +1,9 @@
 .projects-container {
-  @apply grid grid-cols-2 gap-20;
+  @apply grid grid-cols-2 auto-rows-fr gap-20;
 }
 
 .project {
-  @apply bg-white py-5 px-7 shadow-lg transition-all ease-in-out duration-500 border-2 border-slate-400 rounded-md;
+  @apply bg-white py-5 px-7 shadow-lg h-full transition-all ease-in-out duration-500 border-2 border-slate-400 rounded-md;
 }
 
 .project:hover {
