@@ -21,5 +21,17 @@
       "TailwindCSS"
     ],
     "link": "https://github.com/kahouechi/BoomBox"
+  },
+
+  {
+    "heading": "Competitive Programming",
+    "subheading": "Solving coding problems",
+    "image": "",
+    "description": "I analyze different coding problems and come up with algorithms to provide solutions!",
+    "technologies": [
+      "Python",
+      "Java"
+    ],
+    "link": "https://dmoj.ca/user/kuechi"
   }
 ]
