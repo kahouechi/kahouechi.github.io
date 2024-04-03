@@ -41,7 +41,7 @@ const AboutMe = () => {
             <h1>I loovveee food</h1>
             <ImageCarousel images={data["Food"]}/>
             <p>
-              &#9733;	There's nothing better than a good meal or sweet treat :P
+              &#9733;	There's nothing better than a good meal or sweet treat :p
               <br />
               <br />
               &#9733;	I love exploring new cultures and tastes through food!
