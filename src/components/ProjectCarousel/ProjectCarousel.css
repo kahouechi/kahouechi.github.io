@@ -1,28 +1,32 @@
 .card-container {
-  @apply flex justify-center items-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-12 py-8 border-2 bg-white;
+  @apply flex justify-center items-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-12 py-8;
 }
 
 .card-container:hover {
-  @apply scale-110 transition-all ease-in-out duration-500;
+  @apply scale-110 transition-all ease-in-out duration-500 text-purple-800;
 }
 
 .card {
   @apply flex flex-col justify-center items-center;
 }
 
+.card h1{
+  @apply text-xl;
+}
+
 .card img {
-  @apply w-11/12 rounded-md shadow-lg border-2 border-purple-900;
+  @apply w-full rounded-md shadow-lg border-2 border-purple-900;
 }
 
 .card> :nth-child(3) {
-  @apply mt-5 bg-purple-900 p-2 rounded-md text-white text-sm;
+  @apply mt-5 bg-purple-800 p-2 rounded-md text-white text-sm;
 }
 
 .card-button {
-  @apply absolute text-4xl bg-white text-purple-900 p-1 cursor-pointer z-10 transition-all duration-300 rounded-sm;
+  @apply absolute text-4xl text-purple-900 p-1 cursor-pointer z-10 transition-all duration-300 rounded-sm;
 }
 .card-button:hover {
-  @apply bg-slate-100 font-semibold text-purple-600;
+  @apply font-semibold text-purple-600;
 }
 .card-button-prev {
   @apply left-3;

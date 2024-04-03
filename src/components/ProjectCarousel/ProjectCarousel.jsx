@@ -24,7 +24,7 @@ const Carousel = ({ data }) => {
       </button>
 
       <div className="card">
-        <h1 className='mt-0'>{data[activeIndex].heading}</h1>
+        <h1>{data[activeIndex].heading}</h1>
         <img src={data[activeIndex].image} />
         <Link to="/projects">&#9733; View Projects Page</Link>
       </div>

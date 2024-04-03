@@ -14,7 +14,7 @@ const ProjectsHome = () => {
           <ProjectCarousel data={data}/>
         </div>
         <div className="projects-right">
-          <h1 >CHECK OUT MY PROJECTS!!</h1>
+          <h1>CHECK OUT MY PROJECTS!!</h1>
           <p>
             I like working on coding projects and building on my knowledge of web development and competitve programming!
           </p>
