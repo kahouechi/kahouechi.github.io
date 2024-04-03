@@ -55,7 +55,7 @@ const AboutMe = () => {
               &#9733; I love being in nature, especially sunsets! It's so beautiful &#x266C;
               <br/>
               <br/>
-              &#9733;	Other than my interest for coding, I like to learn about sustainability as well.
+              &#9733;	Other than my interest for coding, I like to learn about sustainability as well
             </p>
           </div>
         </div>
