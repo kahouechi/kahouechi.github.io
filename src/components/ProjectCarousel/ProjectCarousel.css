@@ -1,5 +1,5 @@
 .card-container {
-  @apply flex justify-center items-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-12 py-8;
+  @apply flex justify-center items-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-14;
 }
 
 .card-container:hover {
