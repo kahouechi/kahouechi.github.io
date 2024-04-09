@@ -1,0 +1,24 @@
+.contact-container{
+  @apply grid items-center gap-4;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contact-title {
+  @apply mb-10 col-span-1;
+}
+
+.form-container {
+  @apply flex flex-col items-center px-8 gap-4;
+}
+
+.form-container > * {
+  @apply px-3 py-2 rounded-md border w-full;
+}
+
+.form-container textarea{
+  @apply pb-10;
+}
+
+.form-container button {
+  @apply bg-purple-800 text-white font-semibold cursor-pointer;
+}
