@@ -14,7 +14,7 @@ const Home = () => {
         <hr/>
         <ProjectsHome />
         <hr/>
-        <ContactHome />
+        <ContactHome id="contact"/>
       </div>
     </section>
   )
