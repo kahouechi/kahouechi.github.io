@@ -1,5 +1,5 @@
 import React from 'react'
-import './ContactHome.css'
+import './ContactForm.css'
 
 const ContactHome = () => {
 
@@ -35,12 +35,15 @@ const ContactHome = () => {
         </p>
       </div>
 
-      <form onSubmit={onSubmit} className='form-container'>
-        <input type="text" name="name" placeholder='Your Name' className='contact-input' required/>
-        <input type="email" name="email" placeholder='Your Email' className='contact-input' required/>
-        <textarea name="message" placeholder='Your Message' className='contact-input' required></textarea>
-        <input type="hidden" name="redirect" value="https://web3forms.com/success"/>
-        <button type="submit">Submit</button>
+      <form onSubmit={onSubmit} className='form-wrapper'>
+        <h1>Send me a message!</h1>
+        <div className='form-container'>
+          <input type="text" name="name" placeholder='Your Name' className='contact-input' required/>
+          <input type="email" name="email" placeholder='Your Email' className='contact-input' required/>
+          <textarea name="message" placeholder='Your Message' className='contact-input' required></textarea>
+          <input type="hidden" name="redirect" value="https://web3forms.com/success"/>
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </div>
   )

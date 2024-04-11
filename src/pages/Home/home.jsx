@@ -3,7 +3,6 @@ import './home.css'
 import Hero from '../../components/Hero/HomeHero.jsx';
 import AboutMe from '../../components/AboutMe/AboutMe.jsx';
 import ProjectsHome from '../../components/ProjectsHome/ProjectsHome.jsx';
-import ContactHome from '../../components/ContactHome/ContactHome.jsx'
 
 const Home = () => {
   return (
@@ -13,8 +12,6 @@ const Home = () => {
         <AboutMe />
         <hr/>
         <ProjectsHome />
-        <hr/>
-        <ContactHome id="contact"/>
       </div>
     </section>
   )
