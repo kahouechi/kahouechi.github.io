@@ -1,13 +1,13 @@
 .contacts-container {
-  @apply grid grid-cols-2 gap-16;
+  @apply grid grid-cols-2 justify-items-center gap-10 mx-24;
 }
 
 .contact-info {
-  @apply flex items-center gap-5 border border-slate-300 rounded-lg p-7 bg-white shadow-md;
+  @apply flex items-center gap-5 p-7;
 }
 
 .contact-info-left > :nth-child(1) {
-  @apply size-24 text-purple-950;
+  @apply size-16 text-purple-950;
 }
 
 .contact-info-right > h1 {
