@@ -1,35 +1,35 @@
 {
   "Japan": [
-    "./Japan/GlasswareShop.jpg",
-    "./Japan/NightWalk.jpg",
-    "./Japan/OkinawaBeach.jpg",
-    "./Japan/OkinawaSoba.jpg"
+    "./AboutMe/Japan/GlasswareShop.jpg",
+    "./AboutMe/Japan/NightWalk.jpg",
+    "./AboutMe/Japan/OkinawaBeach.jpg",
+    "./AboutMe/Japan/OkinawaSoba.jpg"
   ],
   
   "FashionAndMusic" : [
-    "./FashionAndMusic/ClairoConcert.jpg",
-    "./FashionAndMusic/BirthdayOutfit.jpg",
-    "./FashionAndMusic/FitCheck.jpg",
-    "./FashionAndMusic/MeAtMitskiConcert.jpg",
-    "./FashionAndMusic/MitskiConcert.jpg",
-    "./FashionAndMusic/PurpleFit.jpg",
-    "./FashionAndMusic/BedsideTable.jpg"
+    "./AboutMe/FashionAndMusic/ClairoConcert.jpg",
+    "./AboutMe/FashionAndMusic/BirthdayOutfit.jpg",
+    "./AboutMe/FashionAndMusic/FitCheck.jpg",
+    "./AboutMe/FashionAndMusic/MeAtMitskiConcert.jpg",
+    "./AboutMe/FashionAndMusic/MitskiConcert.jpg",
+    "./AboutMe/FashionAndMusic/PurpleFit.jpg",
+    "./AboutMe/FashionAndMusic/BedsideTable.jpg"
   ],
 
   "Food": [
-    "./Food/ShavedIce.jpg",
-    "./Food/KoreanBBQ.jpeg",
-    "./Food/RollCake.jpg",
-    "./Food/Smores.jpg",
-    "./Food/SoonTofu.jpg",
-    "./Food/Udon.jpg"
+    "./AboutMe/Food/ShavedIce.jpg",
+    "./AboutMe/Food/KoreanBBQ.jpeg",
+    "./AboutMe/Food/RollCake.jpg",
+    "./AboutMe/Food/Smores.jpg",
+    "./AboutMe/Food/SoonTofu.jpg",
+    "./AboutMe/Food/Udon.jpg"
   ],
 
   "Nature": [
-    "./Nature/Hike.jpg",
-    "./Nature/QuebecSunset.jpg",
-    "./Nature/CottageTrip.jpg",
-    "./Nature/OkinawaSunset.jpg",
-    "./Nature/QuebecHike.jpg"
+    "./AboutMe/Nature/Hike.jpg",
+    "./AboutMe/Nature/QuebecSunset.jpg",
+    "./AboutMe/Nature/CottageTrip.jpg",
+    "./AboutMe/Nature/OkinawaSunset.jpg",
+    "./AboutMe/Nature/QuebecHike.jpg"
   ]
 }
