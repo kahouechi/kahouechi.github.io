@@ -1,0 +1,7 @@
+.page {
+  @apply mx-28;
+}
+
+.page> * {
+  @apply mb-20;
+}

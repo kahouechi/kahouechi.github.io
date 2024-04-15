@@ -4,7 +4,7 @@
 }
 
 .contact-form-title {
-  @apply mb-10 col-span-1 text-white;
+  @apply mb-10 col-span-1 text-white text-start;
 
   p{
     @apply text-slate-300;

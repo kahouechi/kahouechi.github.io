@@ -1,7 +1,8 @@
 import React from 'react'
 import './ContactForm.css'
+import '../../Hero/Hero.css'
 
-const ContactHome = () => {
+const ContactForm = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -27,7 +28,7 @@ const ContactHome = () => {
   };
 
   return (
-    <div className="contact-form-container">
+    <div className="hero-container contact-form-container">
       <div className="contact-form-title">
         <h1>CONTACT ME</h1>
         <p>
@@ -49,4 +50,4 @@ const ContactHome = () => {
   )
 }
 
-export default ContactHome
+export default ContactForm
