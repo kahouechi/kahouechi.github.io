@@ -7,7 +7,7 @@ const Header = () => {
   //change header background when scroll
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 80)
+    if (window.scrollY >= 70)
       setColor(true);
     else
       setColor(false);
