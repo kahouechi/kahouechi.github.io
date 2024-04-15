@@ -9,6 +9,7 @@ const Contacts = () => {
         <div className='contacts-container'>
           <div className='contact'>
             <MdOutlineEmail/>
+            <h1>Email me!</h1>
 
           </div>
         </div>

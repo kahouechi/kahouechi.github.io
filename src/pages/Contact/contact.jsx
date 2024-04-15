@@ -5,11 +5,11 @@ import Contacts from '../../components/Contacts/Contacts.jsx'
 
 const contact = () => {
   return (
-    <section className="contact bg-gradient-to-tr from-violet-950 via-slate-900 to-indigo-950">
-      <div className='contact-form'>
+    <section className="contact">
+      <div className='bg-gradient-to-tr from-violet-950 via-slate-900 to-indigo-950'>
         <ContactForm />
-        <Contacts />
       </div>
+      <Contacts />
     </section>
   )
 }
