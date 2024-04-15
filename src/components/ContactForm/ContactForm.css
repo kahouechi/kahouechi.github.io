@@ -1,9 +1,9 @@
-.contact-container{
+.contact-form-container{
   @apply grid items-center gap-10;
   grid-template-columns: 1fr 2fr;
 }
 
-.contact-title {
+.contact-form-title {
   @apply mb-10 col-span-1 text-white;
 
   p{
