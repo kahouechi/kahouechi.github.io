@@ -16,7 +16,7 @@ const Contacts = () => {
               <MdOutlineEmail/>
             </div>
             <div className='contact-info-right'>
-              <h1 className='m-1'>Email</h1>
+              <h1>Email</h1>
               <p>uechikaho@gmail.com</p>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Contacts = () => {
               <FaPhoneFlip/>
             </div>
             <div className='contact-info-right'>
-              <h1 className='m-1'>Phone</h1>
+              <h1>Phone</h1>
               <p>647-674-5312</p>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Contacts = () => {
               <FaGithub/>
             </div>
             <div className='contact-info-right'>
-              <h1 className='m-1'>GitHub</h1>
+              <h1>GitHub</h1>
               <p>@kahouechi</p>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Contacts = () => {
               <FaLinkedin/>
             </div>
             <div className='contact-info-right'>
-              <h1 className='m-1'>LinkedIn</h1>
+              <h1>LinkedIn</h1>
               <p>linkedin.com</p>
             </div>
           </div>

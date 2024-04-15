@@ -28,24 +28,26 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="hero-container contact-form-container">
-      <div className="contact-form-title">
-        <h1>CONTACT ME</h1>
-        <p>
-          I am always up to start a conversation! Feel free to contact me through this form or any of my socials, and I will get back to you as soon as I can.
-        </p>
-      </div>
-
-      <form onSubmit={onSubmit} className='form-wrapper'>
-        <h1>Send me a message!</h1>
-        <div className='form-container'>
-          <input type="text" name="name" placeholder='Your Name' className='contact-input' required/>
-          <input type="email" name="email" placeholder='Your Email' className='contact-input' required/>
-          <textarea name="message" placeholder='Your Message' className='contact-input' required></textarea>
-          <input type="hidden" name="redirect" value="https://web3forms.com/success"/>
-          <button type="submit">Submit</button>
+    <div className="hero-wrapper">
+      <div className="hero-container contact-form-container">
+        <div className="contact-form-title">
+          <h1>CONTACT ME</h1>
+          <p>
+            I am always up to start a conversation! Feel free to contact me through this form or any of my socials, and I will get back to you as soon as I can.
+          </p>
         </div>
-      </form>
+
+        <form onSubmit={onSubmit} className='form-wrapper'>
+          <h1 className='text-black'>Send me a message!</h1>
+          <div className='form-container'>
+            <input type="text" name="name" placeholder='Your Name' className='contact-input' required/>
+            <input type="email" name="email" placeholder='Your Email' className='contact-input' required/>
+            <textarea name="message" placeholder='Your Message' className='contact-input' required></textarea>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success"/>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }

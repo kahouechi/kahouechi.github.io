@@ -1,5 +1,5 @@
 .contact-form-container{
-  @apply grid justify-items-center items-center gap-4 mx-24 rounded-lg px-10 py-44;
+  @apply grid justify-items-center items-center gap-4 mx-24 rounded-lg px-10 py-36;
   grid-template-columns: 1fr 2fr;
 }
 
