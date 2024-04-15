@@ -1,6 +1,6 @@
 .contact-form-container{
-  @apply grid justify-items-center items-center gap-4 mx-24 rounded-lg px-10 py-36;
-  grid-template-columns: 1fr 2fr;
+  @apply grid justify-items-center items-center gap-16 mx-24 rounded-lg px-16 py-36;
+  grid-template-columns: 1fr 1.5fr;
 }
 
 .contact-form-title {
@@ -12,7 +12,7 @@
 }
 
 .form-wrapper {
-  @apply w-10/12 p-8 pb-12 bg-purple-100 rounded-lg text-center;
+  @apply w-full p-8 pb-12 bg-purple-100 rounded-lg text-center;
 }
 
 .form-container {
