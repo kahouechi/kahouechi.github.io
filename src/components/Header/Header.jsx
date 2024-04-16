@@ -7,7 +7,7 @@ const Header = () => {
   //change header background when scroll
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 70)
+    if (window.scrollY >= 100)
       setColor(true);
     else
       setColor(false);
@@ -20,7 +20,7 @@ const Header = () => {
       <div className='h-container'>
         <Link to="/">
           <div className='title'>
-            <h1>KAHO</h1>
+            <h1 className='m-0'>KAHO</h1>
           </div>
         </Link>
 
