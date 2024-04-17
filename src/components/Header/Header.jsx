@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
+import { IoMdMenu } from "react-icons/io";
 
 const Header = () => {
 
@@ -30,6 +31,9 @@ const Header = () => {
           {/* <Link to="/resume">RESUME</Link> */}
           <Link to="/contact">CONTACT</Link>
         </div>
+      </div>
+      <div className='mobile-button'>
+        <IoMdMenu size={25} />
       </div>
     </section>
   )
