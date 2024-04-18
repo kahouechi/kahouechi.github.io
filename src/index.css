@@ -14,10 +14,10 @@ body {
 
 h1 {
   font-family: "Press Start 2P", system-ui;
-  @apply text-2xl sm:text-lg my-3;
+  @apply text-2xl sm:text-base my-3;
 }
 
 p,
 span {
-  @apply text-base sm:text-sm text-slate-600;
+  @apply text-base sm:text-xs text-slate-600;
 }

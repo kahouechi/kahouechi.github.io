@@ -1,5 +1,5 @@
 .hero-wrapper {
-  @apply mb-28 shadow-lg right-0 left-0;
+  @apply mb-28 sm:mb-10 shadow-lg right-0 left-0 text-wrap;
 }
 
 .hero-wrapper> *{
@@ -11,11 +11,11 @@
 }
 
 .hero-title> h2{
-  @apply text-2xl;
+  @apply text-2xl sm:text-base;
 }
 
 .hero-title> h1{
-  @apply text-8xl sm:text-6xl;
+  @apply text-8xl sm:text-4xl;
 }
 
 .hero-title> p {

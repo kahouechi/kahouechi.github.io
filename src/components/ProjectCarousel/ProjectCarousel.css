@@ -1,5 +1,5 @@
 .card-container {
-  @apply flex justify-center items-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-14;
+  @apply flex justify-center items-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-14 sm:px-7;
 }
 
 .card-container:hover {
@@ -29,8 +29,8 @@
   @apply font-semibold text-purple-600;
 }
 .card-button-prev {
-  @apply left-3;
+  @apply left-0;
 }
 .card-button-next {
-  @apply right-3;
+  @apply right-0;
 }
