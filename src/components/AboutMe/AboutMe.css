@@ -3,7 +3,7 @@
 }
 
 .fun-facts {
-  @apply grid grid-cols-4 gap-7;
+  @apply grid grid-cols-4 sm:grid-cols-1 gap-7;
 }
 
 .fun-fact{
