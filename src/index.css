@@ -9,7 +9,6 @@
 
 body {
   background-color: rgb(247, 245, 255);
-  overflow: auto;
 }
 
 h1 {
@@ -22,6 +21,9 @@ h2 {
 }
 
 p,
-span {
+span,
+input,
+textarea,
+button {
   @apply text-base sm:text-xs text-slate-600;
 }

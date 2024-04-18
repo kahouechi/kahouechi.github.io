@@ -1,5 +1,5 @@
 .contact-form-container{
-  @apply grid justify-items-center items-center gap-16 mx-24 rounded-lg px-16 py-36 text-slate-600;
+  @apply grid sm:flex justify-items-center items-center gap-16 sm:gap-0 rounded-lg px-16 sm:px-10 py-36 text-slate-600;
   grid-template-columns: 1fr 1.5fr;
 }
 
@@ -12,7 +12,11 @@
 }
 
 .form-wrapper {
-  @apply w-full p-8 pb-12 bg-purple-100 rounded-lg text-center;
+  @apply w-full p-8 sm:p-3 pb-12 bg-purple-100 rounded-lg text-center;
+}
+
+.form-wrapper > h1 {
+  @apply sm:text-xs;
 }
 
 .form-container {

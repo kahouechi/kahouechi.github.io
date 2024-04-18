@@ -1,6 +1,6 @@
 import React from 'react'
 import './ContactForm.css'
-import '../../Hero/Hero.css'
+import '../Hero.css'
 
 const ContactForm = () => {
 

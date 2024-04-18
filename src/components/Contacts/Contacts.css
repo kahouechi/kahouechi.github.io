@@ -1,9 +1,9 @@
 .contacts-container {
-  @apply grid grid-cols-4 sm:grid-cols-2 justify-items-center gap-20 sm:gap-10;
+  @apply grid grid-cols-4 sm:grid-cols-2 justify-items-center gap-20 sm:gap-y-0;
 }
 
 .contact-info {
-  @apply flex items-center gap-5 p-7;
+  @apply flex items-center gap-5 p-7 sm:p-5 sm:scale-75;
 }
 
 .contact-info-left > :nth-child(1) {
