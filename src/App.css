@@ -3,5 +3,5 @@
 }
 
 .page> * {
-  @apply mb-20 sm:mb-5;
+  @apply mb-20;
 }

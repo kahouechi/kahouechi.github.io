@@ -1,5 +1,5 @@
 .hero-wrapper {
-  @apply mb-28 sm:mb-10 shadow-lg right-0 left-0 text-wrap;
+  @apply mb-28 sm:mb-0 shadow-lg right-0 left-0 text-wrap;
 }
 
 .hero-wrapper> *{
@@ -10,8 +10,8 @@
   @apply w-screen flex justify-center items-center p-32 text-center;
 }
 
-.hero-title> h2{
-  @apply text-2xl sm:text-base;
+.hero-title> :nth-child(1){
+  @apply text-2xl sm:text-base text-white;
 }
 
 .hero-title> h1{

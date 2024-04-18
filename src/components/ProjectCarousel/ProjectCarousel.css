@@ -10,10 +10,6 @@
   @apply flex flex-col justify-center items-center;
 }
 
-.card h1{
-  @apply text-xl;
-}
-
 .card img {
   @apply w-full rounded-md shadow-lg border-2 border-purple-900;
 }

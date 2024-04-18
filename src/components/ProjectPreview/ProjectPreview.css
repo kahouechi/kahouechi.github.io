@@ -1,0 +1,28 @@
+.projects-container {
+  @apply grid grid-cols-2 sm:grid-cols-1 auto-rows-fr sm:auto-rows-auto gap-20 sm:gap-8;
+}
+
+.project {
+  @apply bg-white py-5 px-7 sm:p-4 shadow-lg h-full transition-all ease-out duration-500 border-2 border-slate-400 rounded-md;
+}
+
+.project:hover {
+  @apply scale-110 transition-all ease-in-out duration-500 border-sky-800;
+
+  h1 {
+    @apply text-sky-800;
+  }
+
+}
+
+.project-top {
+  @apply border-b border-slate-400;
+}
+
+.project img {
+  @apply rounded-sm shadow-lg my-8;
+}
+
+.view-more-button {
+  @apply flex flex-row justify-center items-center gap-1 w-max bg-sky-700 text-white p-1 rounded-md shadow-lg text-sm;
+}
