@@ -6,7 +6,7 @@
   @apply flex flex-row sm:flex-col gap-20 sm:gap-5 sm:text-center;
 }
 
-.f-title {
+.f-message {
   @apply text-center mb-10 sm:mb-5;
 }
 
