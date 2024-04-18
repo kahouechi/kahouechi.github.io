@@ -1,13 +1,13 @@
 .hero-wrapper {
-  @apply flex justify-center items-center mb-28 shadow-lg right-0 left-0;
+  @apply mb-28 shadow-lg right-0 left-0;
 }
 
 .hero-wrapper> *{
-  @apply text-white my-20;
+  @apply text-white mb-20;
 }
 
 .hero-container {
-  @apply p-32 text-center;
+  @apply w-screen flex justify-center items-center p-32 text-center;
 }
 
 .hero-title> h2{
@@ -15,7 +15,7 @@
 }
 
 .hero-title> h1{
-  @apply text-8xl;
+  @apply text-8xl sm:text-6xl;
 }
 
 .hero-title> p {

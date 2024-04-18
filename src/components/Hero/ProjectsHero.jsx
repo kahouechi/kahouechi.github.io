@@ -7,7 +7,7 @@ const ProjectsHero = () => {
       <div className="hero-container">
         <div className="hero-left">
           <div className="hero-title">
-            <h1>PROJECTS</h1>
+            <h1 className='sm:text-5xl'>PROJECTS</h1>
             <p>Here are some of the projects I have made, applying my knowledge of different technologies.
             <br /> 
             All of my projects are unfinished at the moment, but I am working on them!</p>
