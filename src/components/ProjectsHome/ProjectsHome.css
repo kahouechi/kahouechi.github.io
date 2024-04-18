@@ -1,7 +1,7 @@
-.projects-container {
-  @apply flex flex-col justify-center items-center;
+.projects-home-container {
+  @apply grid grid-cols-2 sm:grid-cols-1 justify-center items-center gap-10 sm:text-center sm:gap-0;
 }
 
 .see-more-link {
-  @apply flex justify-start items-center gap-1;
+  @apply flex justify-start items-center gap-1 sm:hidden;
 }

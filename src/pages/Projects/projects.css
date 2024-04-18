@@ -1,5 +1,5 @@
 .projects-container {
-  @apply grid grid-cols-2 auto-rows-fr gap-20;
+  @apply grid grid-cols-2 sm:grid-cols-1 auto-rows-fr sm:auto-rows-auto gap-20;
 }
 
 .project {

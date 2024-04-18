@@ -9,7 +9,8 @@
 
 body {
   background-color: rgb(247, 245, 255);
-  width: 100vh;
+  position: absolute;
+  overflow: auto;
 }
 
 h1 {
