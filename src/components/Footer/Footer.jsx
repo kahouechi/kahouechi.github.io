@@ -6,7 +6,7 @@ const Footer = () => {
     <section className="f-wrapper">
 
       <div className="f-container">
-        <div className='f-title'>
+        <div className='f-message'>
           <span>
             Thank you for reading through my website!
           </span>
