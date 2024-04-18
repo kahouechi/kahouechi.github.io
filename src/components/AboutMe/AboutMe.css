@@ -25,7 +25,3 @@
 .fun-fact h1 {
   @apply text-sm mt-0;
 }
-
-.fun-fact p{
-  @apply text-sm;
-}
