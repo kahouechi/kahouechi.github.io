@@ -1,5 +1,5 @@
 .hero-wrapper {
-  @apply mb-28 sm:mb-0 shadow-lg right-0 left-0 text-wrap;
+  @apply mb-28 sm:mb-0 shadow-lg right-0 left-0 text-pretty;
 }
 
 .hero-wrapper> *{
@@ -7,17 +7,17 @@
 }
 
 .hero-container {
-  @apply w-screen flex justify-center items-center p-32 text-center;
+  @apply w-screen flex flex-col justify-center items-center p-32 text-center;
 }
 
-.hero-title> :nth-child(1){
-  @apply text-2xl sm:text-base text-white;
+.hero-text> h2{
+  @apply text-2xl sm:text-base text-white font-normal;
 }
 
-.hero-title> h1{
+.hero-text> h1{
   @apply text-8xl sm:text-4xl;
 }
 
-.hero-title> p {
+.hero-text> p {
   @apply text-indigo-300;
 }
