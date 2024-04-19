@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
 import { IoMdMenu } from "react-icons/io";
+import { scrollToTop } from '../../utils/scrollToTop.js'
 
 const Header = () => {
 
@@ -19,17 +20,17 @@ const Header = () => {
   return (
     <section className={color ? 'h-wrapper h-scroll' : 'h-wrapper'}>
       <div className='h-container'>
-        <Link to="/">
+        <Link to="/" onClick={scrollToTop}>
           <div className='title'>
             <h1 className='m-0'>KAHO</h1>
           </div>
         </Link>
 
         <div className='h-menu'>
-          <Link to="/">HOME</Link>
-          <Link to="/projects">PROJECTS</Link>
+          <Link to="/" onClick={scrollToTop}>HOME</Link>
+          <Link to="/projects" onClick={scrollToTop}>PROJECTS</Link>
           {/* <Link to="/resume">RESUME</Link> */}
-          <Link to="/contact">CONTACT</Link>
+          <Link to="/contact" onClick={scrollToTop}>CONTACT</Link>
         </div>
       </div>
       <div className='mobile-button'>
