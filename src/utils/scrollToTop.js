@@ -4,4 +4,5 @@ export function scrollToTop() {
     left: 0,
     behavior: "smooth",
   });
+  // window.scroll(0, 0);
 };
