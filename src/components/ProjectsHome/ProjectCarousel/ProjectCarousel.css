@@ -25,8 +25,8 @@
   @apply font-semibold text-purple-600;
 }
 .card-button-prev {
-  @apply left-5;
+  @apply left-0;
 }
 .card-button-next {
-  @apply right-5;
+  @apply right-0;
 }
