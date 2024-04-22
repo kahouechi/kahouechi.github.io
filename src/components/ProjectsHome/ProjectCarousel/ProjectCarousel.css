@@ -1,5 +1,5 @@
 .card-container {
-  @apply flex justify-center items-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-14 sm:px-7;
+  @apply flex justify-center items-center text-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-14 sm:px-7;
 }
 
 .card-container:hover {
@@ -19,14 +19,14 @@
 }
 
 .card-button {
-  @apply absolute text-4xl text-purple-900 p-1 cursor-pointer z-10 transition-all duration-300 rounded-sm;
+  @apply absolute text-4xl text-purple-900 cursor-pointer z-10 transition-all duration-300;
 }
 .card-button:hover {
   @apply font-semibold text-purple-600;
 }
 .card-button-prev {
-  @apply left-0;
+  @apply left-5;
 }
 .card-button-next {
-  @apply right-0;
+  @apply right-5;
 }

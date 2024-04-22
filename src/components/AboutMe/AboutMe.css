@@ -3,7 +3,7 @@
 }
 
 .fun-facts {
-  @apply grid grid-cols-4 sm:grid-cols-1  gap-7 sm:gap-10;
+  @apply grid grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-7 sm:gap-10;
 }
 
 .fun-fact{
@@ -23,5 +23,5 @@
 }
 
 .fun-fact h1 {
-  @apply text-sm mt-0;
+  @apply text-xs mt-0;
 }

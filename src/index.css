@@ -13,11 +13,11 @@ body {
 
 h1 {
   font-family: "Press Start 2P", system-ui;
-  @apply text-2xl sm:text-base my-3;
+  @apply text-2xl sm:text-base md:text-lg my-3;
 }
 
 h2 {
-  @apply font-semibold text-lg sm:text-sm text-slate-600 ml-1;
+  @apply font-semibold text-lg sm:text-sm md:text-base text-slate-600 ml-1;
 }
 
 p,
@@ -25,5 +25,5 @@ span,
 input,
 textarea,
 button {
-  @apply text-base sm:text-xs text-slate-600;
+  @apply text-base sm:text-xs md:text-sm text-slate-600;
 }

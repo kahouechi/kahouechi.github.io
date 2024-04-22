@@ -1,5 +1,5 @@
 .contacts-container {
-  @apply w-auto grid grid-cols-4 sm:grid-cols-2 gap-20 sm:gap-10;
+  @apply w-auto grid grid-cols-4 sm:grid-cols-2 md:grid-cols-2 gap-20 sm:gap-10 md:gap-5 justify-items-center sm-md:justify-items-start;
 }
 
 .contact-info {

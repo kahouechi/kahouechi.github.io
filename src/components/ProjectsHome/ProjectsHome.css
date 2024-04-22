@@ -1,5 +1,5 @@
 .projects-home-container {
-  @apply grid grid-cols-2 sm:grid-cols-1 justify-center items-center gap-10 sm:text-center sm:gap-0;
+  @apply grid grid-cols-2 sm:grid-cols-1 justify-center items-center gap-10 sm:text-center sm-md:gap-2;
 }
 
 .see-more-link {

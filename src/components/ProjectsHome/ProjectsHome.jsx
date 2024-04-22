@@ -3,7 +3,7 @@ import './ProjectsHome.css'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from "react-icons/fa";
 import data from '../../data/projects.json'
-import ProjectCarousel from '../ProjectCarousel/ProjectCarousel.jsx'
+import ProjectCarousel from './ProjectCarousel/ProjectCarousel.jsx'
 
 
 const ProjectsHome = () => {

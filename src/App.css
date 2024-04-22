@@ -1,5 +1,5 @@
 .page {
-  @apply mx-28 sm:mx-10;
+  @apply mx-28 sm:mx-10 md:mx-16;
 }
 
 .page> * {
