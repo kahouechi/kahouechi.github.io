@@ -28,6 +28,7 @@ const Header = () => {
   return (
     <section className={color ? 'h-wrapper h-scroll' : 'h-wrapper'}>
       <div className='h-container'>
+
         <Link to="/" onClick={scrollToTop}>
           <div className='title'>
             <h1 className='m-0'>KAHO</h1>
@@ -43,6 +44,7 @@ const Header = () => {
           <Link to="/contact" onClick={scrollToTop}>CONTACT</Link>
         </div>
       </div>
+
       <div className='mobile-button' onClick={() => setMenuOpened((prev)=>!prev)}>
         <IoMdMenu size={25} />
       </div>
