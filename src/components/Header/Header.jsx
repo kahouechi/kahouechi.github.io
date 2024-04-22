@@ -17,6 +17,8 @@ const Header = () => {
 
   window.addEventListener('scroll', changeColor);
 
+  const [menuOpened, setMenuOpened] = useState(false);
+
   return (
     <section className={color ? 'h-wrapper h-scroll' : 'h-wrapper'}>
       <div className='h-container'>

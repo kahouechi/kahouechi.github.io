@@ -11,9 +11,9 @@
 }
 
 .h-menu {
-  @apply flex font-semibold text-lg gap-6;
+  @apply flex font-semibold text-lg gap-6 sm:absolute sm:flex-col sm:text-end sm:text-purple-950 sm:right-0 sm:top-10 sm:bg-[#F7F5FF] sm:p-8 sm:rounded-lg sm:shadow-lg;
 }
 
 .mobile-button {
-  @apply w-max hidden sm:block sm:absolute sm:right-10;
+  @apply w-max hidden sm:block sm:absolute sm:right-7;
 }
