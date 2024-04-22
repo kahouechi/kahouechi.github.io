@@ -19,5 +19,5 @@
 }
 
 .f-left> h1, .f-right> h1 {
-  @apply text-2xl sm:text-lg font-bold text-white mb-3;
+  @apply font-bold text-white mb-3;
 }
