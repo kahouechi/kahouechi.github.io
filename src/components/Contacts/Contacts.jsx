@@ -31,25 +31,29 @@ const Contacts = () => {
             </div>
           </div>
 
-          <div className='contact-info'>
-            <div className='contact-info-left'>
-              <FaGithub/>
+          <a href='https://github.com/kahouechi' target='/blank'>
+            <div className='contact-info'>
+              <div className='contact-info-left'>
+                <FaGithub/>
+              </div>
+              <div className='contact-info-right'>
+                <h1>GitHub</h1>
+                <p>@kahouechi</p>
+              </div>
             </div>
-            <div className='contact-info-right'>
-              <h1>GitHub</h1>
-              <p>@kahouechi</p>
-            </div>
-          </div>
+          </a>
 
-          <div className='contact-info'>
-            <div className='contact-info-left'>
-              <FaLinkedin/>
+          <a href='https://www.linkedin.com/in/kaho-uechi/' target='/blank'>
+            <div className='contact-info'>
+              <div className='contact-info-left'>
+                <FaLinkedin/>
+              </div>
+              <div className='contact-info-right'>
+                <h1>LinkedIn</h1>
+                <p>Kaho Uechi</p>
+              </div>
             </div>
-            <div className='contact-info-right'>
-              <h1>LinkedIn</h1>
-              <p>linkedin.com</p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

@@ -15,7 +15,7 @@
 }
 
 .hero-text> h1{
-  @apply text-8xl sm:text-4xl md:text-7xl;
+  @apply text-7xl sm:text-4xl md:text-6xl;
 }
 
 .hero-text> p {
