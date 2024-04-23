@@ -7,7 +7,7 @@
 }
 
 .hero-container {
-  @apply w-screen flex flex-col justify-center items-center px-32 py-64 sm:py-44 md:py-56 text-center;
+  @apply w-screen flex flex-col justify-center items-center px-32 py-64 sm:py-32 md:py-40 text-center;
 }
 
 .hero-text> h2{
