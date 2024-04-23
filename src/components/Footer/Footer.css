@@ -10,12 +10,17 @@
   @apply text-slate-400;
 }
 
+.f-container {
+  @apply flex flex-col gap-12 sm:gap-8;
+}
+
 .flex-container {
   @apply flex flex-row sm:flex-col gap-20 sm:gap-5 sm:text-center;
 }
 
-.f-message {
-  @apply text-center mb-10 sm:mb-5;
+.f-message,
+.f-copyright {
+  @apply text-center;
 }
 
 .f-left{
@@ -27,5 +32,5 @@
 }
 
 .social-icons {
-  @apply flex justify-end gap-3 m-1;
+  @apply flex justify-end sm:justify-center gap-3 m-1;
 }

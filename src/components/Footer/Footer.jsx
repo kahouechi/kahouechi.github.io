@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,6 +36,12 @@ const Footer = () => {
               </a>
             </div>
           </div>
+        </div>
+
+        <div className='f-copyright'>
+          <span>
+            Copyright &#169; 2024 Kaho Uechi. All rights reserved.
+          </span>
         </div>
       </div>
     </section>
