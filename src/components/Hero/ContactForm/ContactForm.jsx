@@ -45,19 +45,20 @@ const ContactForm = () => {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className='form-wrapper'>
+        <div onSubmit={handleSubmit(onSubmit)} className='form-wrapper'>
           <h1 className='text-black'>Send me a message!</h1>
-          <div className='form-container'>
+          
+          <form className='form-container'>
             <input type="text" name="name" placeholder='Your Name' className='contact-input' {...register("name", { required: true })}/>
             <input type="email" name="email" placeholder='Your Email' className='contact-input' {...register("email", { required: true })}/>
             <textarea name="message" placeholder='Your Message' className='contact-input' {...register("message", { required: true })}></textarea>
             <button type="submit">Submit</button>
-          </div>
+          </form>
 
           <div id='result' style={{display:'none'}} className='result'>
             {result}
           </div>
-        </form>
+        </div>
       </div>
     </div>
   )
