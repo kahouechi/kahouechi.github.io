@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -24,6 +26,14 @@ const Footer = () => {
             <span>
               Check out my socials below!
             </span>
+            <div className='social-icons'>
+              <a href='https://github.com/kahouechi' target='/blank'>
+                <FaGithubSquare size={35} />
+              </a>
+              <a href='https://www.linkedin.com/in/kaho-uechi/' target='/blank'>
+                <FaLinkedin size={35} />
+              </a>
+            </div>
           </div>
         </div>
       </div>

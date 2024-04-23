@@ -1,31 +1,39 @@
 import React from 'react'
 import './ContactForm.css'
 import '../Hero.css'
+import { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
+import useWeb3Forms from "@web3forms/react";
 
 const ContactForm = () => {
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
+  const {register, reset, handleSubmit} = useForm();
 
-    formData.append("access_key", "5df5f7e3-28f0-4ac5-a808-bf67fe0a7c44");
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [result, setResult] = useState(null);
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+  const accessKey = "5df5f7e3-28f0-4ac5-a808-bf67fe0a7c44";
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
+  const { submit: onSubmit } = useWeb3Forms({
+    access_key: accessKey,
+    settings: {
+      from_name: "Acme Inc",
+      subject: "New Contact Message from your Website",
+    },
+    onSuccess: (msg, data) => {
+      setIsSuccess(true);
+      setResult(msg);
+      reset();
+    },
+    onError: (msg, data) => {
+      setIsSuccess(false);
+      setResult(msg);
+    },
+  });
 
-    if (res.success) {
-      console.log("Success", res);
-    }
-  };
+  if (result !== null) {
+    document.getElementById("result").style.display = "block";
+  }
 
   return (
     <div className="hero-wrapper">
@@ -37,16 +45,19 @@ const ContactForm = () => {
           </p>
         </div>
 
-        <form onSubmit={onSubmit} className='form-wrapper'>
+        <form onSubmit={handleSubmit(onSubmit)} className='form-wrapper'>
           <h1 className='text-black'>Send me a message!</h1>
           <div className='form-container'>
-            <input type="text" name="name" placeholder='Your Name' className='contact-input' required/>
-            <input type="email" name="email" placeholder='Your Email' className='contact-input' required/>
-            <textarea name="message" placeholder='Your Message' className='contact-input' required></textarea>
-            <input type="hidden" name="redirect" value="https://web3forms.com/success"/>
+            <input type="text" name="name" placeholder='Your Name' className='contact-input' {...register("name", { required: true })}/>
+            <input type="email" name="email" placeholder='Your Email' className='contact-input' {...register("email", { required: true })}/>
+            <textarea name="message" placeholder='Your Message' className='contact-input' {...register("message", { required: true })}></textarea>
             <button type="submit">Submit</button>
           </div>
         </form>
+
+        <div id='result' style="display:none" className='result'>
+          {result}
+        </div>
       </div>
     </div>
   )
