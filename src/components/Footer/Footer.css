@@ -2,6 +2,14 @@
   @apply w-screen flex justify-center items-center bg-gradient-to-tl from-purple-950 via-slate-950 to-violet-950 bottom-0 left-0 right-0 text-slate-300 py-20 sm:py-10 mt-28 sm:mt-20;
 }
 
+.f-wrapper h1 {
+  @apply font-bold text-white mb-3;
+}
+
+.f-wrapper span {
+  @apply text-slate-400;
+}
+
 .flex-container {
   @apply flex flex-row sm:flex-col gap-20 sm:gap-5 sm:text-center;
 }
@@ -18,10 +26,6 @@
   @apply flex flex-col text-right sm:text-center;
 }
 
-.f-left> h1, .f-right> h1 {
-  @apply font-bold text-white mb-3;
-}
-
 .social-icons {
-  @apply flex justify-end gap-3 my-1;
+  @apply flex justify-end gap-3 m-1;
 }
