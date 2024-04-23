@@ -16,7 +16,7 @@
 }
 
 .form-wrapper > h1 {
-  @apply sm:text-xs;
+  @apply mb-5 sm:text-xs;
 }
 
 .form-container {
