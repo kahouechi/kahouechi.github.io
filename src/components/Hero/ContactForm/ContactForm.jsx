@@ -53,11 +53,11 @@ const ContactForm = () => {
             <textarea name="message" placeholder='Your Message' className='contact-input' {...register("message", { required: true })}></textarea>
             <button type="submit">Submit</button>
           </div>
-        </form>
 
-        <div id='result' style="display:none" className='result'>
-          {result}
-        </div>
+          <div id='result' style={{display:'none'}} className='result'>
+            {result}
+          </div>
+        </form>
       </div>
     </div>
   )
