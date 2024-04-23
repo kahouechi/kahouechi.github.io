@@ -36,5 +36,5 @@
 }
 
 .result {
-  @apply bg-green-50 border border-green-200 rounded-lg shadow-md p-1 mt-5 text-sm;
+  @apply bg-green-50 border border-green-200 rounded-lg shadow-md p-1 mt-5 sm:my-3 text-sm sm:text-xs;
 }
