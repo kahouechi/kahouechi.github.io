@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
-import { IoMdMenu } from "react-icons/io";
+import { IoMdMenu } from "react-icons/io"
 import { scrollToTop } from '../../utils/scrollToTop.js'
+import {motion} from 'framer-motion'
 
 const Header = () => {
 
