@@ -4,6 +4,7 @@ import '../Hero.css'
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
+import {motion} from 'framer-motion'
 
 const ContactForm = () => {
 
@@ -37,7 +38,15 @@ const ContactForm = () => {
 
   return (
     <div className="hero-wrapper">
-      <div className="hero-container contact-form-container">
+      <motion.div 
+        initial={{y: "-2rem", opacity: 0}}
+        animate={{y: 0, opacity: 1}}
+        transition={{
+          duration: 2,
+          type: "spring"
+        }}
+        className="hero-container contact-form-container"
+      >
         <div className="contact-form-title">
           <h1>CONTACT ME</h1>
           <p>
@@ -47,7 +56,7 @@ const ContactForm = () => {
 
         <div onSubmit={handleSubmit(onSubmit)} className='form-wrapper'>
           <h1 className='text-black'>Send me a message!</h1>
-          
+
           <form className='form-container'>
             <input type="text" name="name" placeholder='Your Name' className='contact-input' {...register("name", { required: true })}/>
             <input type="email" name="email" placeholder='Your Email' className='contact-input' {...register("email", { required: true })}/>
@@ -59,7 +68,7 @@ const ContactForm = () => {
             {result}
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
