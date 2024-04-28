@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ProjectCarousel.css'
 import { Link } from 'react-router-dom'
-import {AnimatePresence, motion} from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 const Carousel = ({ data }) => {
 
@@ -25,24 +25,24 @@ const Carousel = ({ data }) => {
         &lt;
       </button>
 
-      <AnimatePresence>
+      {/* <AnimatePresence> */}
        <motion.div 
+          className="card"
           layout
           key={activeIndex}
-          initial={{ x: 100 }}
+          initial={{ x: 300 }}
           animate={{ x: 0 }}
-          exit={ {x: -100 }}
+          exit={ {x: -300 }}
           transition={{
             duration: 1,
             type: "spring"
           }}
-          className="card"
         >
           <h1>{data[activeIndex].heading}</h1>
           <img src={data[activeIndex].image} />
           <Link to="/projects">&#9733; View Projects Page</Link>
         </motion.div>
-      </AnimatePresence>
+      {/* </AnimatePresence> */}
 
       <button onClick={nextSlide} className="card-button card-button-next">
           &gt;
