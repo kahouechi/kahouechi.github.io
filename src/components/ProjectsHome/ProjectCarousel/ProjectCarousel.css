@@ -1,5 +1,5 @@
 .card-container {
-  @apply flex justify-center items-center text-center relative max-w-full overflow-hidden mb-7 rounded-lg transition-all ease-in-out duration-500 px-14 sm:px-7;
+  @apply flex justify-center items-center text-center relative max-w-full mb-7 rounded-lg transition-all ease-in-out duration-500 px-14 sm:px-7 overflow-hidden;
 }
 
 .card-container:hover {
@@ -7,7 +7,7 @@
 }
 
 .card {
-  @apply flex flex-col justify-center items-center;
+  @apply flex flex-col justify-center items-center overflow-hidden;
 }
 
 .card img {

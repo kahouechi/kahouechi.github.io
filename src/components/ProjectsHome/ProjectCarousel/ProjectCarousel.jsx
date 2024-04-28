@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './ProjectCarousel.css'
 import { Link } from 'react-router-dom'
+import {AnimatePresence, motion} from 'framer-motion'
 
 const Carousel = ({ data }) => {
+
   const [activeIndex, setActiveIndex] = useState(0);
   const nextSlide = () => {
     setActiveIndex((prevIndex) =>
@@ -23,11 +25,24 @@ const Carousel = ({ data }) => {
         &lt;
       </button>
 
-      <div className="card">
-        <h1>{data[activeIndex].heading}</h1>
-        <img src={data[activeIndex].image} />
-        <Link to="/projects">&#9733; View Projects Page</Link>
-      </div>
+      <AnimatePresence>
+       <motion.div 
+          layout
+          key={activeIndex}
+          initial={{ x: 100 }}
+          animate={{ x: 0 }}
+          exit={ {x: -100 }}
+          transition={{
+            duration: 1,
+            type: "spring"
+          }}
+          className="card"
+        >
+          <h1>{data[activeIndex].heading}</h1>
+          <img src={data[activeIndex].image} />
+          <Link to="/projects">&#9733; View Projects Page</Link>
+        </motion.div>
+      </AnimatePresence>
 
       <button onClick={nextSlide} className="card-button card-button-next">
           &gt;
@@ -36,4 +51,5 @@ const Carousel = ({ data }) => {
     </div>
   );
 };
+
 export default Carousel;
