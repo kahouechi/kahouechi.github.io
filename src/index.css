@@ -27,3 +27,21 @@ textarea,
 button {
   @apply text-base sm:text-xs md:text-sm text-slate-600;
 }
+
+.gradient-background {
+  background: linear-gradient(329deg,#2e1065, #020617, #1e1b4b, #3b0764);
+  background-size: 250%;
+  animation: gradient-animation 20s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,3 @@
+.opening {
+  @apply flex flex-col justify-center items-center text-white text-center;
+}
