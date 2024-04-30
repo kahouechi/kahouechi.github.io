@@ -1,3 +1,7 @@
 .opening {
   @apply flex flex-col justify-center items-center text-white text-center;
 }
+
+.pages-container {
+  @apply font-semibold text-lg;
+}

@@ -1,16 +1,24 @@
 import React from 'react'
 import './opening.css'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
- 
+
 const Opening = () => {
+
+  const pages = [
+    {title: "Home", path: "/home"},
+    {title: "Projects", path: "/projects"},
+    {title: "Contact", path: "/contact"},
+  ]
+
   return (
     <section className="opening gradient-background h-lvh">
       <div className='o-container page'>
         <motion.div
-          initial={{y: -80, opacity: 0}}
+          initial={{y: -100, opacity: 0}}
           animate={{y: 0, opacity: 1}}
           transition={{
-            duration: 4,
+            duration: 2,
             type: "spring"
           }}
           className="intro-container"
@@ -34,6 +42,20 @@ const Opening = () => {
             <h1>Welcome to my website!</h1>
           </motion.div>
         </AnimatePresence>
+
+        <div className='pages-container'>
+          {pages.map((page, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, translateX: 50 }}
+              animate={{ opacity: 1, translateX: 0 }}
+              transition={{ duration: 0.5, delay: (i+7) * 0.2 }}
+            >
+              <Link to={page.path}>{page.title}</Link>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
     </section>
   )
