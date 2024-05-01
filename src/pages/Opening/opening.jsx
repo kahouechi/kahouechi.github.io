@@ -28,7 +28,7 @@ const Opening = () => {
             animate={{scale: 1, opacity: 1 }}
             transition={{
               duration: 1,
-              delay: 0.3,
+              delay: 0.5,
               type: "spring"
             }}
             className="m-8"
@@ -44,7 +44,7 @@ const Opening = () => {
             animate={{y: 0, opacity: 1 }}
             transition={{
               duration: 1,
-              delay: 0.8,
+              delay: 1,
               type: "spring"
             }}
           >
