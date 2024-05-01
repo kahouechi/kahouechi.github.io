@@ -1,5 +1,5 @@
 .hero-wrapper {
-  @apply mb-28 sm:mb-0 shadow-lg right-0 left-0 text-pretty;
+  @apply w-screen mb-28 sm:mb-20 shadow-lg right-0 left-0 text-pretty;
 }
 
 .hero-wrapper> *{
@@ -7,7 +7,7 @@
 }
 
 .hero-container {
-  @apply w-screen flex flex-col justify-center items-center px-32 py-64 sm:py-32 md:py-40 text-center;
+  @apply flex flex-col justify-center items-center px-32 py-56 sm:py-32 md:py-40 text-center;
 }
 
 .hero-text> h2{
