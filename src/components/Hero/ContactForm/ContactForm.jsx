@@ -42,7 +42,7 @@ const ContactForm = () => {
         initial={{y: "-2rem", opacity: 0}}
         animate={{y: 0, opacity: 1}}
         transition={{
-          duration: 2,
+          duration: 1.5,
           type: "spring"
         }}
         className="hero-container contact-form-container"

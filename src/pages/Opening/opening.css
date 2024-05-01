@@ -3,5 +3,9 @@
 }
 
 .pages-container {
-  @apply font-semibold text-lg;
+  @apply grid grid-cols-3 justify-center items-center gap-20;
+}
+
+.page-preview {
+  @apply flex flex-col justify-center items-center font-semibold text-2xl text-black bg-purple-100 p-10 rounded-lg gap-5 shadow-lg border-2 border-white;
 }
