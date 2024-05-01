@@ -22,7 +22,7 @@ const AboutMe = () => {
               &#9733;	I was born in Okinawa, Japan, which is a southern island off the coast of mainland Japan!
               <br />
               <br />
-              &#9733; I moved to Toronto, Canada when I was four years old
+              &#9733; I moved to Toronto, Canada when I was four years old.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ const AboutMe = () => {
             <h1>I like to dabble in fashion and music...</h1>
             <ImageCarousel images={data["FashionAndMusic"]}/>
             <p>
-              &#9733;	I like exploring different clothing pieces and ways to style them
+              &#9733;	I like exploring different clothing pieces and ways to style them.
               <br/>
               <br/>
               &#9733;	I love ALLLLLL genres of music, but my current favourite artists are Childish Gambino, MF DOOM, and Sade!!
@@ -55,7 +55,7 @@ const AboutMe = () => {
               &#9733; I love being in nature, especially sunsets and going on walks! So beautiful &#x266C;
               <br/>
               <br/>
-              &#9733;	Other than my interest for coding, I like to learn about sustainability as well
+              &#9733;	Other than my interest for coding, I like to learn about sustainability as well.
             </p>
           </div>
         </div>
