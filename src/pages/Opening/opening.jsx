@@ -30,7 +30,7 @@ const Opening = () => {
               duration: 1,
               type: "spring"
             }}
-            className="m-10"
+            className="m-8"
           >
             <div>
               <span className='text-2xl text-slate-300'>Hello! I'm</span>
@@ -46,9 +46,8 @@ const Opening = () => {
               delay: 0.8,
               type: "spring"
             }}
-            className='text-slate-300'
           >
-            <h1>Welcome to my website!</h1>
+            <span className='text-slate-300 text-2xl'>Welcome to my website!</span>
           </motion.div>
         </motion.div>
 
@@ -64,7 +63,7 @@ const Opening = () => {
               }}
             >
               <Link to={page.path} className='page-preview'>
-                <span className='font-semibold text-2xl text-black'>{page.title}</span>
+                <h1 className='font-semibold text-xl text-black'>{page.title}</h1>
                 <hr className='w-10/12 border-[0.9px] border-purple-900'/>
                 <img src={page.pic}/>
                 <span>{page.description}</span>
