@@ -6,28 +6,28 @@ import { motion, AnimatePresence } from 'framer-motion'
 const Opening = () => {
 
   const pages = [
-    {title: "HOME", path: "/home", pic: "./Pages/Home.png"},
-    {title: "PROJECTS", path: "/projects", pic: "./Pages/Projects.png"},
-    {title: "CONTACT", path: "/contact", pic: "./Pages/Contact.png"},
+    {title: "HOME", path: "/home", pic: "./Pages/Home.png", description: "Get to know me!"},
+    {title: "PROJECTS", path: "/projects", pic: "./Pages/Projects.png", description: "See my projects!"},
+    {title: "CONTACT", path: "/contact", pic: "./Pages/Contact.png", description: "Contact me!"},
   ]
 
   return (
     <section className="opening gradient-background h-lvh">
       <div className='o-container page'>
         <motion.div className="intro-container"
-          initial={{ y: 30, scale: 1 }}
-          animate={{ y: -70, scale: 0.6 }}
+          initial={{ y: 200, scale: 1 }}
+          animate={{ y: 50, scale: 0.7 }}
           transition={{
             duration: 2,
-            delay: 1.5,
+            delay: 1.4,
             type: "spring"
           }}
         >
           <motion.div
-            initial={{scale: 0.3, opacity: 0}}
+            initial={{scale: 0.5, opacity: 0}}
             animate={{scale: 1, opacity: 1 }}
             transition={{
-              duration: 1.5,
+              duration: 1,
               type: "spring"
             }}
             className="m-10"
@@ -43,7 +43,7 @@ const Opening = () => {
             animate={{y: 0, opacity: 1 }}
             transition={{
               duration: 1,
-              delay: 1,
+              delay: 0.8,
               type: "spring"
             }}
             className='text-slate-300'
@@ -59,13 +59,15 @@ const Opening = () => {
               initial={{ opacity: 0, translateX: 50 }}
               animate={{ opacity: 1, translateX: 0 }}
               transition={{ 
-                duration: 0.5,
+                duration: 0.7,
                 delay: (i+10) * 0.2
               }}
             >
               <Link to={page.path} className='page-preview'>
-                <span>{page.title}</span>
+                <span className='font-semibold text-2xl text-black'>{page.title}</span>
+                <hr className='w-10/12 border-[0.9px] border-purple-900'/>
                 <img src={page.pic}/>
+                <span>{page.description}</span>
               </Link>
             </motion.div>
           ))}
