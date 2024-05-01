@@ -30,7 +30,7 @@ const Hero = () => {
             animate={{scale: 1, opacity: 1 }}
             transition={{
               duration: 1,
-              delay: 0.5,
+              delay: 0.3,
               type: "spring"
             }}
             className="hero-text m-5"
