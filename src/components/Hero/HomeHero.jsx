@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import {motion} from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="hero-container">
 
         <motion.div className="hero-text"
-          initial={{ y: 100 }}
+          initial={{ y: 80 }}
           animate={{ y: 0 }}
           transition={{
             duration: 2,
@@ -33,7 +33,7 @@ const Hero = () => {
               delay: 0.5,
               type: "spring"
             }}
-            className="hero-text"
+            className="hero-text m-5"
           >
             <h2>Hello! I'm</h2>
             <h1>KAHO UECHI</h1>
