@@ -37,7 +37,7 @@ const Header = () => {
         <div className='h-menu'
           style={getMenuStyles(menuOpened)}
           onClick={() => setMenuOpened((prev)=>!prev)}>
-          <Link to="/home">HOME</Link>
+          <Link to="/">HOME</Link>
           <Link to="/projects">PROJECTS</Link>
           {/* <Link to="/resume">RESUME</Link> */}
           <Link to="/contact">CONTACT</Link>
