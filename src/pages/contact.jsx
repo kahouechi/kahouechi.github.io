@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
-import ContactForm from '../../components/Hero/ContactForm/ContactForm.jsx'
-import Contacts from '../../components/Contacts/Contacts.jsx'
+import ContactForm from '../components/Hero/ContactForm/ContactForm.jsx'
+import Contacts from '../components/Contacts/Contacts.jsx'
 
 const contact = () => {
   return (
